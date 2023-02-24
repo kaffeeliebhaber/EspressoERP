@@ -1,0 +1,6 @@
+BEFEHLE
+* gradlew build --refresh-dependencies := Läde alle Abhängigkeiten von gradle noch einmal neu.
+
+
+TUTORIALS
+* https://www.javatpoint.com/hibernate-one-to-many-mapping-using-annotation-example

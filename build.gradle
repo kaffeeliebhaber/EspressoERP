@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}
+
+dependencies {
+
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.24'
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.31.Final'
+}
+
+application {
+    mainClass = 'erp.App'
+}
+
+javafx {
+    version = "19"
+    modules = [ 'javafx.controls', 'javafx.fxml']
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,14 @@
+erp/hibernate/entities/Question.java
+ erp.hibernate.entities.Question
+erp/hibernate/service/QuestionService.java
+ erp.hibernate.service.QuestionService
+erp/hibernate/entities/Customer.java
+ erp.hibernate.entities.Customer
+erp/hibernate/service/CustomerService.java
+ erp.hibernate.service.CustomerService
+erp/hibernate/HibernateUtil.java
+ erp.hibernate.HibernateUtil
+erp/hibernate/entities/Answer.java
+ erp.hibernate.entities.Answer
+erp/App.java
+ erp.App
